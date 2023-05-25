@@ -1,0 +1,10 @@
+PORT = 8000
+
+JWT_SECRET_KEY = "dhsjf3423jhsdf3423df"
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USER = 'gadadesachin51@gmail.com'
+EMAIL_PASS = 'iuuyqpjfyqfwwdvj'
+EMAIL_FROM = 'gadadesachin51@gmail.com'
+const otpHashRounds = parseInt(process.env.OTP_HASH_ROUNDS);
